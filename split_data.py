@@ -10,7 +10,7 @@ csv_file_path = r'song_lyrics.csv'  # Update with your actual file path
 output_path = 'data/lyrics_top3.csv'  # Combined dataset with 15,000 samples
 
 # Parameters
-total_samples_per_category = 200  # Number of samples per category
+total_samples_per_category = 10000  # Number of samples per category
 
 # List of categories (update based on your actual category names)
 categories = ['Pop', 'Rap', 'Misc',]  # Update with your actual categories
