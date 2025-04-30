@@ -82,5 +82,7 @@ Limitations:
 4. High resource requirements for feature extraction and model training.
 
 Acknowledgments:
+
 -Inspired by the GitHub repository johnsonj561/LibSVM-Text-Classification.
+
 -Dataset sourced from Kaggle and Genius ([https://genius.com](https://www.kaggle.com/datasets/carlosgdcj/genius-song-lyrics-with-language-information)).
