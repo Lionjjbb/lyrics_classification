@@ -66,6 +66,14 @@ Steps to do:
 
 2. Run prepare-data.py
 
-3. type svm-train -t 0 data/libsvm_train.txt model.txt in terminal to run
+![image](https://github.com/user-attachments/assets/d0b1e41e-b789-4ce6-b25c-82ff6b9c7202)
 
-4. type svm-predict data/libsvm_test.txt model.txt predictions.txt to run
+
+3. Run svm_classification.py
+
+![image](https://github.com/user-attachments/assets/3d0b5d68-5501-4063-9cf4-74b247a39398)
+
+4. Retrain the model by typing svm-train -t 0 data/libsvm_train.txt model.txt in terminal and svm-predict data/libsvm_test.txt model.txt predictions.txt in terminal 
+
+![image](https://github.com/user-attachments/assets/9b976bba-654f-4d09-ad11-8b6ca2b387d0)
+
