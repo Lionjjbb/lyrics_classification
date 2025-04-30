@@ -31,7 +31,7 @@ param_grid = {
 }
 
 # Set up stratified k-fold cross-validation with fewer folds
-kf = StratifiedKFold(n_splits=3, shuffle=True, random_state=42)
+kf = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)
 
 # Initialize GridSearchCV
 svc = SVC()
