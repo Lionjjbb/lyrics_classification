@@ -120,7 +120,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 vectorizer = TfidfVectorizer(
     max_features=20000,   # Reduced number of features
     ngram_range=(1,2),    # Unigrams and bigrams
-    min_df=5,             # Ignore terms that appear in less than 5 documents
+    min_df=100,             # Ignore terms that appear in less than 5 documents
     max_df=0.6            # Ignore terms that appear in more than 60% of documents
 )
 X = vectorizer.fit_transform(corpus)
