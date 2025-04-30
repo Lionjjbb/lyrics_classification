@@ -71,9 +71,13 @@ Steps to do:
 
 3. Run svm_classification.py
 
-![image](https://github.com/user-attachments/assets/3d0b5d68-5501-4063-9cf4-74b247a39398)
+![image](https://github.com/user-attachments/assets/81c62a74-8432-4246-a48d-c88fa93efdd6)
+![image](https://github.com/user-attachments/assets/2c2485db-0eb6-4799-9580-63309a9c8623)
+sample for each category=10000, k-fold cross validation (5), min_df =100, rbf kernel
+
+![image](https://github.com/user-attachments/assets/d150c2bc-c988-46df-bb08-0c2b34392b2b)
+
 
 4. Retrain the model by typing svm-train -t 0 data/libsvm_train.txt model.txt in terminal and svm-predict data/libsvm_test.txt model.txt predictions.txt in terminal 
 
-![image](https://github.com/user-attachments/assets/9b976bba-654f-4d09-ad11-8b6ca2b387d0)
 
