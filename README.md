@@ -4,11 +4,6 @@ Overview:
 
 This project classifies song lyrics into genres (Pop, Rap, Miscellaneous) using Natural Language Processing (NLP) and Support Vector Machine (SVM) techniques. The dataset, sourced from Genius via Kaggle, contains 5 million songs, enhanced with language detection models to identify the native language of each entry. The project focuses on three genres due to uneven distribution in the original dataset and achieves an accuracy of 86.11% using an SVM model with an RBF kernel.
 
-Dataset information:
-
-This dataset, sourced from Genius, includes data up to 2022, featuring user-uploaded and annotated songs, poems, and books, primarily songs. It enhances the 5 Million Song Lyrics Dataset by using models to detect the native language of each entry.
-
-Link to dataset: https://www.kaggle.com/datasets/carlosgdcj/genius-song-lyrics-with-language-information
 
 Project Workflow:
 
@@ -79,3 +74,13 @@ sample for each category=10000, k-fold cross validation (5), min_df =100, rbf k
 4. Retrain the model by typing svm-train -t 0 data/libsvm_train.txt model.txt in terminal and svm-predict data/libsvm_test.txt model.txt predictions.txt in terminal 
 
 
+Limitations:
+
+1. Dataset size (9GB) poses memory and computational challenges.
+2. 17% misclassification rate for Rap lyrics.
+3. Limited to three genres due to uneven distribution.
+4. High resource requirements for feature extraction and model training.
+
+Acknowledgments:
+-Inspired by the GitHub repository johnsonj561/LibSVM-Text-Classification.
+-Dataset sourced from Kaggle and Genius ([https://genius.com](https://www.kaggle.com/datasets/carlosgdcj/genius-song-lyrics-with-language-information)).
